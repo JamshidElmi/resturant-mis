@@ -4,7 +4,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini">هرات</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>آشپزخانه هرات</b></span>
+      <span class="logo-lg"><b>رستورانت هرات</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -36,7 +36,7 @@
                   <li><!-- start message -->
                     <a href="#">
                       <div class="pull-right">
-                        <img src="assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=base_url('assets/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         علیرضا
@@ -49,7 +49,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-right">
-                        <img src="assets/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=base_url('assets/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         نگین
@@ -61,7 +61,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-right">
-                        <img src="assets/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=base_url('assets/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         نسترن
@@ -73,7 +73,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-right">
-                        <img src="assets/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=base_url('assets/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         نگین
@@ -85,7 +85,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-right">
-                        <img src="assets/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=base_url('assets/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         نسترن
@@ -234,30 +234,27 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="assets/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">علیرضا حسینی زاده</span>
+              <img src="<?=base_url('assets/img/user2-160x160.jpg'); ?>" class="user-image" alt="User Image">
+              <span class="hidden-xs">مدیر عمومی</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="<?=base_url('assets/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
 
                 <p>
-                  علیرضا حسینی زاده
-                  <small>مدیریت کل سایت</small>
+                  محمد میرزائی | مدیر کل
+                  <small>مدیریت آشپزخانه</small>
                 </p>
               </li>
               <!-- Menu Body -->
               <li class="user-body">
                 <div class="row">
-                  <div class="col-xs-4 text-center">
-                    <a href="#">صفحه من</a>
+                  <div class="col-xs-6 text-center">
+                    <a href="#">عواید</a>
                   </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">فروش</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">دوستان</a>
+                  <div class="col-xs-6 text-center">
+                    <a href="#">مصارف</a>
                   </div>
                 </div>
                 <!-- /.row -->
@@ -268,7 +265,7 @@
                   <a href="#" class="btn btn-default btn-flat">پروفایل</a>
                 </div>
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">خروج</a>
+                  <a href="#" class="btn btn-danger btn-flat">خروج</a>
                 </div>
               </li>
             </ul>
